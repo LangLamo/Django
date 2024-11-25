@@ -1,0 +1,16 @@
+langkah langkah install django :
+1. cmd
+2. cd ke lokasi folder
+3. python -m venv myenv
+4. myenv\Scripts\activate
+5. pip install django
+6. cek apakah django udah terinstall atau belum di django-admin --version
+
+
+untuk buat project pertama :
+1. buat project django 
+   dan akan dibuatkan folder :
+	1. manage.py: Skrip untuk menjalankan berbagai perintah Django seperti menjalankan server atau migrasi database.
+	2. settings.py: Tempat Anda menyimpan semua pengaturan proyek, seperti database, aplikasi yang digunakan, dan konfigurasi 		lainnya.
+	3. urls.py: Menangani URL routing, yaitu penentuan URL apa yang harus mengarah ke tampilan mana.
+	4. wsgi.py dan asgi.py: Digunakan untuk deployment (WSGI untuk server berbasis WSGI dan ASGI untuk aplikasi asinkron).
